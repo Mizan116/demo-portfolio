@@ -1,0 +1,96 @@
+.col-1{width: 8.33%;}
+.col-2{width:16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width:41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width:66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width:91.66%;}
+.col-12{width: 100%;}
+
+/* ----header start----- */
+
+.header h1{
+    height: auto;
+    text-align: right;
+    padding: 35px 35px;
+}
+.header img{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.header .nav-menu {
+    margin-top: 10px;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.header .nav-menu a { 
+    text-align: right;
+    margin: 6% 1%;
+    padding: 10px;
+    background-color: transparent;
+
+}
+.header .nav-menu a:hover { 
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* profile start here */
+.uplogo{
+    position: absolute;
+    right: 150px;
+    top: 60px;
+}
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+
+.profile-desc p{
+    text-align: center;
+    padding: 1%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.downlogo{
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+}.uplogo:hover ,.downlogo:hover{
+    transform: rotate(360deg);
+}
+/* About me section start */
+
+.about-me img{
+    margin-top: 50px;
+    width: 220px;
+    height: auto;
+}
+.about-me-desc p{
+   text-align: justify;
+}
+/* skill section start */
+
+.skill{
+    padding: 1% 5%;
+}
+/* achievement section start */
+.social-icons{
+    position: relative;
+}
+.social-icons .social-media{
+    position: absolute;
+    margin-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.footer-desc{
+    margin: 0;
+}
+/* End the project */
